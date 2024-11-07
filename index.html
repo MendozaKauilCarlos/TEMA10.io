@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-background-gradient="linear-gradient(to bottom, #FBF6F5, #0408F7)",>
+	
+					<img src="Imagenes/tec.jpeg"  height="300" >
+					<h3>ALUMNO: mendoza kauil carlos eduardo</h3>
+					<h4>MATERIA: fundamentos de telecomunicación</h4>
+					<h5>Actividad: #887 </h5>
+				</section>
+
+				<section data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom">
+					
+						<section id="fragments">
+							<h1> <span class="fragment highlight-red">ERRORES EN LOS  DATOS</h1>
+							<p class="fragment">Siempre que los bits se transmiten de un punto a otro, están sujetos a cambios impredecibles debido a interferencias. Esta interferencia puede alterar la forma de la señal. En un error de un solo bit, un 0 se cambia a 1 o un 1 a 0. </p>		
+						</section>			
+				</section>
+
+ 				<section>
+					<section data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments">
+						<h1> <span class="fragment highlight-red"> TIPO DE ERRORES  DE DATOS</h1>		
+					</section>
+
+					<section data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments">
+						<h1> <span class="fragment highlight-red"> De un bit	</h1>	
+						<p class="fragment">Siempre que los bits se transmiten de un punto a otro, están sujetos a cambios impredecibles debido a interferencias. Esta interferencia puede alterar la forma de la señal. En un error de un solo bit, un 0 se cambia a 1 o un 1 a 0. </p>		
+					</section>
+					<section data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments">
+						<h1> <span class="fragment highlight-red"> ERROR DE UN BIT	</h1>	
+							<p class="fragment"> <img src="Imagenes/BIT.png" height="350" width="600"> </p>	
+						
+					</section>
+
+					<section data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments">
+						<h1> <span class="fragment highlight-red"> ERROR DE RAFAGA	</h1>	
+						<p class="fragment">El término "error de ráfaga" significa que 2 o más bits en la unidad de datos han cambiado de 1 a 0 o de 0 a 1. </p>		
+					</section>
+					<section data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments">
+						<h1> <span class="fragment highlight-red"> ERROR DE RAFAGA	</h1>	
+							<p class="fragment"> <img src="Imagenes/BURST.png" height="350" width="600"> </p>	
+					</section>
+				</section>
+				
+					<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+						<h1> <span class="fragment highlight-red"> REDUNDANCIA	</h1>	
+							<p class="fragment"> Son bits que se agrega el por el emisor y son eliminados por el receptor este permite detectar o corregir errores.  </p>	
+							<p class="fragment">  Su presencia permite al receptor detectar o corregir los bits corruptos. </p>
+						
+
+					</section>
+
+					<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+						<h1> <span class="fragment highlight-red"> DETECCION Y CORRECCION DE ERRORES	</h1>	
+							<p class="fragment">  <b>DETECCION DE ERROES:</b>  Identifica si hubo un error, pero no la ubicación o cantidad exacta.</p>
+								<p class="fragment">  <b>CORRECCION DE ERROES:</b> Localiza y corrige errores específicos, lo cual es más complejo y requiere más bits redundantes.</p>	
+
+					</section>
+					<section>
+					<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+						<h1> <span class="fragment highlight-red"> METODOS DE CORRECCION	</h1>	
+		
+					</section>
+						<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+							<h1> <span class="fragment highlight-red"> FORWOARD ERROR CORRECTION </h1>	
+								<p class="fragment">   es el proceso en el cual el receptor intenta adivinar el mensaje utilizando bits redundantes.</p>
+									
+							</section>
+							<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+								<h1> <span class="fragment highlight-red"> RETRANSMISSION  </h1>	
+									<p class="fragment"> El receptor pide al emisor reenviar el mensaje hasta que llegue sin errores. </p>
+							</section>
+							
+						</section>
+
+						<section>
+						<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+							<h1> <span class="fragment highlight-red"> ¿QUE ES CODIFICAR?  </h1>	
+								<p class="fragment"> Es el proceceos en el que el emisor añade redundancia a los bits mientras un proceso crea una relación entre los bits redundantes y los bits verdaderos detectados. </p>
+						</section>
+						<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+							<h2> <span class="fragment highlight-red"> CODIFICACION EN BLOQUE  </h2>	
+								<p class="fragment"> Divide los datos en bloques (datawords) a los que se añaden bits redundantes, formando codewords. Esta estructura permite verificar y corregir datos en la transmisión. </p>
+								<p class="fragment"> <img src="Imagenes/Block codigo .png"  width="600" height="200"></p>
+						</section>
+						<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+							<h3> <span class="fragment highlight-red"> DETECCIÓN DE ERRORES USANDO CODIFICACIÓN EN BLOQUES  </h3>	
+								<p class="fragment"> Para detectar errores, el receptor debe tener una lista de codewords válidos y verificar que el recibido coincida con uno de estos. Si no coincide, el receptor detecta el error. </p>
+								<p class="fragment"> <img src="Imagenes/Block codigo .png"  width="600" height="200"></p>
+						</section>
+					</section>
+
+					<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+							<h1> <span class="fragment highlight-red">DISTANCIA DE HAMMING  </h1>	
+								<p class="fragment"> La distancia de Hamming entre dos palabras mide las diferencias en sus bits. Un mayor valor de distancia de Hamming en un código permite detectar y corregir más errores. </p>
+							
+						</section>
+					
+						<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+							<h1> <span class="fragment highlight-red">CÓDIGOS CÍCLICOS  </h1>	
+								<p class="fragment"> Son un tipo de Código de bloques con una propiedad extra. Si un 'Código' es rotado o sus dígitos se ponen al revés, el resultado será otro 'Código' diferente. </p>
+						</section>
+						<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+							<h1> <span class="fragment highlight-red">CODIGO LINEAL   </h1>	
+								<p class="fragment">   Un código es lineal si la combinación lineal (suma) de dos palabras de código es también una palabra de código. </p>
+
+						</section>
+
+						<section  data-transition="slide" data-background="#5C5FFC" data-background-transition="zoom" id="fragments" >
+							<h1> <span class="fragment highlight-red">CHECK SUM   </h1>	
+								<p class="fragment">  Un checksum, o suma de verificación, es un valor numérico generado a partir de un conjunto de datos. Este valor actúa como una huella digital de dichos datos y se utiliza para verificar su integridad. En términos más técnicos, un checksum es una función hash de una sola vía aplicada a un bloque de datos.</p>
+
+						</section>
+
+					
+				</section>
+	</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
